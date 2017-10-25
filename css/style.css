@@ -68,9 +68,16 @@ body{
 	background-color: #d5c75f;
 	border: 1px solid gray;
 	margin: 2px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .seccion2 img{	
 	margin: 5px;
@@ -138,10 +145,18 @@ body{
 .seccion2{
 	background-color: #d5c75f;
 	border: 1px solid gray;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content:space-around;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-pack:distribute;
+	    justify-content:space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .seccion2 img{	
 	width: 49%;
