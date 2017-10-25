@@ -1,0 +1,23 @@
+/*Asignacion de fuente*/
+@font-face{
+	font-family:'Dancing Script';
+	src:url(fonts/DancingScript-Regular.ttf);
+}
+body{
+	font-family: 'Dancing Script', cursive;
+	background-color: #02010a;
+
+}
+.encabezado{
+	background-color: #5b7989;
+	color: white;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.icono{
+	text-shadow: 2px 2px #02010a;
+}
